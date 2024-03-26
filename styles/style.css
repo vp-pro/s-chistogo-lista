@@ -1,0 +1,263 @@
+/* Общие правила */
+
+body {
+    margin: 0 auto;
+    background-color: #222;
+    width: 360px;
+  }
+
+  h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header,
+  .cover,
+  .intro,
+  .reasons,
+  .how-to,
+  .footer {
+    box-sizing: border-box;
+  }
+
+  .content-section_theme_dark {
+    background-color: #131313;
+    color: #f5f5f5;
+  }
+
+  .content-section_theme_bright {
+    background-color: #fee42a;
+    color: #131313;
+  }
+
+  /* Шапка */
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+  }
+
+  .header__menu {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .header__menu-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    list-style: none;
+  }
+
+  .header__menu-item_active .header__menu-link {
+    text-decoration: none;
+    color: #f5f5f5;
+  }
+
+  .header__menu-item .header__menu-link {
+    color: #f5f5f5;
+  }
+
+  .header__menu-link:hover {
+    transition: 0.2s;
+    opacity: 0.7;
+  }
+
+  /* Обложка */
+
+  .cover {
+    min-height: 221px;
+    padding: 7px 20px 37px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: 339px 249px;
+    background-position: right top;
+  }
+
+  .cover__title {
+    font-family: 'EB Garamond', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+  }
+
+  .accent-span {
+    display: block;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  /* Описание */
+
+  .intro {
+    padding: 35px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+  }
+
+  .intro__heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro__date {
+    white-space: nowrap;
+  }
+
+  .intro__main-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.35;
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+  }
+
+  /* Почему чистый лист — такой страшный? */
+
+  .reasons {
+    padding: 40px 20px;
+  }
+
+  .content-section__subtitle {
+    font-family: 'EB Garamond', serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.15;
+    padding: 0 0 32px;
+  }
+
+  .content-section__introduction {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.35;
+    padding: 0 0 32px;
+  }
+
+  .content-section__list {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.35;
+    padding: 0 0 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .content-section__list-accent {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  /* Как всё-таки начать что-то делать */
+
+  .how-to {
+    padding: 40px 20px 60px;
+  }
+
+  .card {
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .card_theme_dark {
+    background-color: #343434;
+    color: #f5f5f5;
+  }
+
+  .card_theme_bright {
+    background-color: #fee42a;
+    color: #131313;
+  }
+
+  .card__author-photo {
+    border-radius: 50%;
+    width: 100px;
+  }
+
+  .card__author-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .card__title {
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.35;
+  }
+
+  .card__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.35;
+  }
+
+  /* Подвал */
+
+  .footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fee42a;
+  }
+
+  .footer__copy {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.35;
+  }
+
+  .footer__links {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .footer__item {
+    list-style: none;
+  }
+
+  .footer__item-link {
+    text-decoration: none;
+    color: #f5f5f5;
+  }
