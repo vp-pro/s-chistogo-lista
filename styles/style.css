@@ -39,7 +39,7 @@ body {
   }
 
   .header__menu {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
@@ -78,7 +78,7 @@ body {
   }
 
   .cover__title {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond Regular', serif;
     font-size: 72px;
     font-weight: 400;
     line-height: 1;
@@ -107,7 +107,7 @@ body {
   }
 
   .intro__heading {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
@@ -121,7 +121,7 @@ body {
   }
 
   .intro__main-text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.35;
@@ -137,7 +137,7 @@ body {
   }
 
   .content-section__subtitle {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond Medium', serif;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.15;
@@ -145,7 +145,7 @@ body {
   }
 
   .content-section__introduction {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.35;
@@ -153,7 +153,7 @@ body {
   }
 
   .content-section__list {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.35;
@@ -164,7 +164,7 @@ body {
   }
 
   .content-section__list-accent {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.35;
@@ -206,21 +206,21 @@ body {
   }
 
   .card__author-name {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Bold', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.35;
   }
 
   .card__title {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond Medium', serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 1.35;
   }
 
   .card__text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.35;
@@ -236,14 +236,14 @@ body {
   }
 
   .footer__copy {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.35;
   }
 
   .footer__links {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.25;
